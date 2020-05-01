@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
+.tealPage {
+    width: 50px;
+    height: 200px;
+    background-color: blueviolet;
+
+}
