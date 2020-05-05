@@ -16,3 +16,8 @@ body {
     background-color: blueviolet;
 
 }
+
+.dropdown-item {
+  background-color: aqua;
+  shape-rendering: crispEdges;
+}
