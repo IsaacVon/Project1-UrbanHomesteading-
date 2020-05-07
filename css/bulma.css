@@ -2325,7 +2325,7 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 }
 
 .button.is-info {
-  background-color: #3298dc;
+  background-color: #cab4b0;
   border-color: transparent;
   color: #fff;
 }
@@ -5800,26 +5800,28 @@ fieldset[disabled] .select select:hover {
 }
 
 .dropdown-item {
-  color: #4a4a4a;
+  color: #c7e6e694;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
   padding: 0.375rem 1rem;
   position: relative;
+  text-shadow: 1px 0px #084be6;
 }
 
 a.dropdown-item,
 button.dropdown-item {
-  padding-right: 3rem;
-  text-align: left;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: center;
   white-space: nowrap;
   width: 100%;
 }
 
 a.dropdown-item:hover,
 button.dropdown-item:hover {
-  background-color: whitesmoke;
-  color: #0a0a0a;
+  background-color: rgb(198, 255, 250);
+  color: #c7e6e694;
 }
 
 a.dropdown-item.is-active,
@@ -6796,7 +6798,7 @@ a.list-item {
 }
 
 .navbar.is-info {
-  background-color: #dc3232;
+  background-color: #238cd1;
   color: #fff;
 }
 
@@ -6826,7 +6828,7 @@ a.list-item {
   .navbar.is-info .navbar-start .navbar-link,
   .navbar.is-info .navbar-end > .navbar-item,
   .navbar.is-info .navbar-end .navbar-link {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .navbar.is-info .navbar-start > a.navbar-item:focus, .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active,
   .navbar.is-info .navbar-start .navbar-link:focus,
@@ -6841,15 +6843,16 @@ a.list-item {
     background-color: #238cd1;
     color: #fff;
   }
+
   .navbar.is-info .navbar-start .navbar-link::after,
   .navbar.is-info .navbar-end .navbar-link::after {
-    border-color: #fff;
+    border-color: rgb(200, 255, 0);
   }
   .navbar.is-info .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #238cd1;
-    color: #fff;
+    color: rgb(0, 255, 13);
   }
   .navbar.is-info .navbar-dropdown a.navbar-item.is-active {
     background-color: #3298dc;
