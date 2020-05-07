@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Group 404 Project #1</title>
+  <link rel="stylesheet" href="css/bulma.css">
+  <script src="https://kit.fontawesome.com/c1d3326602.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<nav class="navbar is-info is-spaced" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://github.com/IsaacVon/Project1-UrbanHomesteading-">
+      <img src="imgs\banner.png" width="112" height="28">
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+    <div class="navbar-menu" id="navMenu">
+    </div>
+  </div>
+  <div id="navbar-menu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="./index.html">
+        <i class="fas fa-home"></i>
+      </a>
+      <a class="navbar-item" href="./zipZonePlants.html">
+        What Plants Grow Best Near Me
+      </a>
+    </div>
+  </div>
+  <div id="navbar-menu" class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Gardening Resources
+        </a>
+        <div class="navbar-dropdown">
+          <a href="https://en.wikipedia.org/wiki/Gardening/" class="dropdown-item">
+            Gardening WiKi
+          </a>
+          <hr class="navbar-divider">
+          <a href="https://planthardiness.ars.usda.gov/PHZMWeb/About.aspx" class="dropdown-item">
+            All about Hardiness zones
+          </a>
+          <hr class="navbar-divider">
+          <a href="https://www.basicsofgardening.com/" class="dropdown-item">
+            Basics of gardening
+          </a>
+          <hr class="navbar-divider">
+          <a href="https://www.gardeners.com/buy/gardening/" class="dropdown-item">
+            Gardening Supplies
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+  <div class="columns ">
+    <div class="column is-one-fifth">
+      <h1>Start here:</h1>
+      <input class="input is-rounded is-focused" id="zipInput" type="number" placeholder="Enter Zipcode">
+      <button id="submit" class="button is-rounded">Submit</button>
+    </div>
+    <section class="section">
+      <div class="container">
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <h2>You Entered:</h2>
+              <h3 id="zipcode">00000</h3>
+              <div class="level-item has-text-centered">
+                <div>
+                  <h2>Your Hardiness Zone:</h2>
+                  <h3 id="zone">00a</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <div class="column is-one-fifth is-0">
+      <h1>Results:</h1>
+    </div>
+    <div class="column is-narrow">
+      <div class="results">
+        <p id="plantInfo">
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src='zipZonePlants.js'></script>
+  <footer class="footer">Made by: Group 404 &copy; 2020</footer>
+</body>
+
+</html>
