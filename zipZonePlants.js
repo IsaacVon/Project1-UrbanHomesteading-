@@ -8,8 +8,17 @@
         // We can easily display more than just names
     
 
+
+
+
         let zip;
         document.getElementById('submit').addEventListener('click', function(){
+
+        // Clear Previous Search
+        document.getElementById("plantInfo").innerHTML = '';
+
+       
+
 
         // Input: Zip Code
         // Output: `tempMin`, `tempMax`, Hardiness Zone `zone`
@@ -36,6 +45,8 @@
         // Output: Plant Names
                     // We can output whatever we need! having issues seeing all the info on the console log tho
 
+            document.getElementById('zipInput').value= '';
+
             let tempCheck = tempMin;
 
             while (tempCheck <= tempMax) {
@@ -50,26 +61,49 @@
 
                 fetch(url)
                     .then(response => response.json())
-                    .then( plantData => {
-
+                    .then(plantData => {
+                
                     // Display each plant name within the array
                     let i = 0;
                     while (i < plantData.length) {
+                
+                        // get plant ID and show info
+                        let plantIdUrl = 'https://yacdn.org/proxy/https://trefle.io/api/plants/'
+                            + plantData[i].id
+                            + '?&token=R2hvZ1N3MldqS2orb1JCQlRSYzJFUT09';
+                
 
-                    // Console Log to test
-                    console.log(plantData[i])
 
-                    document.getElementById("plantInfo").textContent += plantData[i].common_name + ", ";
-                    
+                        fetch(plantIdUrl)
+                            .then(response => response.json())
+                            .then(plantIdData => {
+                
+
+                                // Final Output Display
+                                console.log(plantIdData)
+                                document.getElementById("plantInfo").innerHTML += 
+                                "Common Name " 
+                                + plantIdData.common_name 
+                                + ", "
+                                + "Scientific Name "
+                                + plantIdData.scientific_name
+                                + ", "
+
+                                // Figure out how to line break somehow
+                            
+                                ;
+                            
+
+
+                        })
+                                
+            
                     i++;
                     }
                     })
                     .catch(e => console.log(e))
 
-
-
             }
-
             })   
                     .catch(e => console.log(e))
         })
