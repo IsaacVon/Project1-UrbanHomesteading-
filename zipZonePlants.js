@@ -1,3 +1,4 @@
+
 // Input: Zip Code HTML id=zipInput
 
 // Output: 
@@ -103,3 +104,4 @@ document.getElementById('submit').addEventListener('click', function () {
     })
     .catch(e => console.log(e))
 })
+
