@@ -76,27 +76,23 @@ document.getElementById('submit').addEventListener('click', function () {
 
 
                   // Final Output Display
+                  
                   console.log(plantIdData)
 
-                  document.getElementById("plantInfo").innerHTML +=
-                    "Common Name " +
-                    plantIdData.common_name +
-                    ", " +
-                    "Scientific Name " +
-                    plantIdData.scientific_name +
-                    ", "
+                  let createLm = document.createElement("li")
+                  document.getElementById("plantInfo").appendChild(createLm);
+                  createLm.setAttribute("id", `plant${i}` );
 
-                  // Figure out how to line break somehow
-
-                  ;
-
-
-
+                  createLm.innerHTML = 
+                    `${plantIdData.common_name} / ${plantIdData.scientific_name}`
                 })
 
 
               i++;
+
             }
+
+
           })
           .catch(e => console.log(e))
 
