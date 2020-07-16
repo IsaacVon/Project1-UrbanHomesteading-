@@ -23,13 +23,13 @@ Bulma.io styling library aesthetics
     
 CONTRIBUTORS:
 
-<a href="https://github.com/GitNAG0" target="_blank">Anthony Gonzalez</a>
+<a href="https://github.com/GitNAG0" target="_blank">Anthony G.</a>
   
-<a href="https://github.com/IsaacVon" target="_blank">Isaac Householder</a>
+<a href="https://github.com/IsaacVon" target="_blank">Isaac H.</a>
   
-<a href="https://github.com/Foxk2p" target="_blank">Kele Palafox</a>
+<a href="https://github.com/Foxk2p" target="_blank">Kele P.</a>
 
-<a href="https://github.com/Ljunghster" target="_blank">Michael Ljungh</a>
+<a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
 
 Visit the Deployed App: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
   
