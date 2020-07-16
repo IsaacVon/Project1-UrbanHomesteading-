@@ -16,9 +16,9 @@ The app has three sections:
   
  FEATURES:
 
-Multiple API consumption
+Multiple API consumption,
 
-Bulma.io styling library aesthetics,
+Bulma.io styling library aesthetics
 
     
 CONTRIBUTORS:
