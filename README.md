@@ -2,7 +2,7 @@
 
 OBJECIVE:
  
-The goal of this project is to provide a useful resource to new and experienced plant enthusiasts.
+The goal of this project is to provide a useful resource for new and experienced plant enthusiasts.
 
 CONTENT:
 
