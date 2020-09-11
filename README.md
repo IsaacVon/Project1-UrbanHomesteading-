@@ -1,10 +1,10 @@
 # Project1-UrbanHomesteading-
 
-OBJECIVE:
+### Objective:
  
 The goal of this project is to provide a useful resource for new and experienced plant enthusiasts.
 
-CONTENT:
+### Content:
 
 The app has three sections:
 
@@ -14,14 +14,22 @@ The app has three sections:
     
   3. The growth lookup - A way to see what plants grow best in a particular zip code.
   
- FEATURES:
+### Features:
 
 Multiple API consumption,
 
 Bulma.io styling library aesthetics
 
+### Built With:
+
+- HTML - Standard markup language
+- CSS - Style sheet language
+- JavaScript - Programming language
+- Node.js - JavaScript runtime
+- Bulma.io - styling library
+
     
-CONTRIBUTORS:
+### Authors:
 
 <a href="https://github.com/GitNAG0" target="_blank">Anthony G.</a>
   
