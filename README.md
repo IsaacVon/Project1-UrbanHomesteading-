@@ -1,8 +1,9 @@
-# Project1-UrbanHomesteading-
+# UrbanHomesteading
 
-### Objective:
+### About:
  
-The goal of this project is to provide a useful resource for new and experienced plant enthusiasts.
+The goal of this project is to provide a useful resource for new and experienced plant enthusiasts. A resource for new and experienced plant enthusiasts. Users can compare plant and weather information, managed by APIs, to improve garden planning.
+
 
 ### Content:
 
@@ -16,11 +17,10 @@ The app has three sections:
   
 ### Features:
 
-Multiple API consumption,
-
+Multiple API consumption
 Bulma.io styling library aesthetics
 
-### Built With:
+### Built with:
 
 - HTML - Standard markup language
 - CSS - Style sheet language
