@@ -2,8 +2,7 @@
 
 ### About:
  
-The goal of this project is to provide a useful resource for new and experienced plant enthusiasts. A resource for new and experienced plant enthusiasts. Users can compare plant and weather information, managed by APIs, to improve garden planning.
-
+The goal of this project is to provide a useful resource for new and experienced plant enthusiasts. Users can compare plant and weather information to improve garden planning.
 
 ### Content:
 
@@ -17,8 +16,8 @@ The app has three sections:
   
 ### Features:
 
-Multiple API consumption
-Bulma.io styling library aesthetics
+- Multiple API consumption
+- Bulma.io styling library aesthetics
 
 ### Built with:
 
@@ -39,5 +38,5 @@ Bulma.io styling library aesthetics
 
 <a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
 
-Visit the Deployed App: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
+### Visit the Deployed App: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
   
