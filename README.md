@@ -14,6 +14,7 @@ The app has three sections:
   
 ### Getting Started:
 
+Select a menu item from the navigation bar at the top of the homepage. If a search page is selected, input the requested information and click the search or submit button to view the requested information.
 
   
 ### Features:
@@ -42,8 +43,6 @@ The app has three sections:
 <a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
 
 ### View <a href="https://github.com/IsaacVon/Project1-UrbanHomesteading-/graphs/contributors" target="_blank">Contributions</a>
-
-### Project <a href="" target="_blank">Preview</a>
 
 ### Visit: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
   
