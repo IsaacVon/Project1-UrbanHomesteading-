@@ -41,5 +41,9 @@ The app has three sections:
 
 <a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
 
-### Visit the Deployed App: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
+### View <a href="https://github.com/IsaacVon/Project1-UrbanHomesteading-/graphs/contributors" target="_blank">Contributions</a>
+
+### Project <a href="" target="_blank">Preview</a>
+
+### Visit: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
   
