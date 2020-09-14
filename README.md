@@ -33,13 +33,13 @@ Select a menu item from the navigation bar at the top of the homepage. If a sear
     
 ### Authors:
 
-<a href="https://github.com/GitNAG0" target="_blank">Anthony G.</a>
+- <a href="https://github.com/GitNAG0" target="_blank">Anthony G.</a>
   
-<a href="https://github.com/IsaacVon" target="_blank">Isaac H.</a>
+- <a href="https://github.com/IsaacVon" target="_blank">Isaac H.</a>
   
-<a href="https://github.com/Foxk2p" target="_blank">Kele P.</a>
+- <a href="https://github.com/Foxk2p" target="_blank">Kele P.</a>
 
-<a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
+- <a href="https://github.com/Ljunghster" target="_blank">Michael L.</a>
 
 ### View: <a href="https://github.com/IsaacVon/Project1-UrbanHomesteading-/graphs/contributors" target="_blank">Contributions</a>
 
