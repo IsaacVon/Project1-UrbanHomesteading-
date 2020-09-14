@@ -4,8 +4,6 @@
  
 The goal of this project is to provide a useful resource for new and experienced plant enthusiasts. Users can compare plant and weather information to improve garden planning.
 
-### Content:
-
 The app has three sections:
 
   1. The resource page - A collection of links to useful resources.
@@ -14,8 +12,13 @@ The app has three sections:
     
   3. The growth lookup - A way to see what plants grow best in a particular zip code.
   
+### Getting Started:
+
+
+  
 ### Features:
 
+- Modular search pages
 - Multiple API consumption
 - Bulma.io styling library aesthetics
 
