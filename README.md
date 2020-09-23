@@ -45,5 +45,5 @@ Select a menu item from the navigation bar at the top of the homepage. If a sear
 
 ### Project <a href="https://foxk2p.github.io/Urban-Homesteading-Preview/" target="_blank">Preview</a>
 
-### Visit: <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
+### Visit <a href="https://isaacvon.github.io/Project1-UrbanHomesteading-/" target="_blank">Urban Homesteading</a>
   
